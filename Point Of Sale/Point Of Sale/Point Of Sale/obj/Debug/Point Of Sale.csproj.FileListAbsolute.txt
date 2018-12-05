@@ -1,0 +1,116 @@
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.exe.config
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.exe
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.pdb
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Form1.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Properties.Resources.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csproj.GenerateResource.Cache
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.exe
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.pdb
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.Template.formDisplay.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImage.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.Template.formNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImageNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmlpoyeeNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.ProControls.formCity.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCityNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrand.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrandNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategory.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategoryNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnitNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProduct.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPrice.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPriceNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedger.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedgerNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountry.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountryNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.ProControls.ucDateSearch.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchase.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchaseNew.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmployeeEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCityEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountryEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmployee.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrandEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategoryEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnitEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImageEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPriceEdit.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csprojResolveAssemblyReference.cache
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedgerEdit.resources
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\bin\Debug\Point Of Sale.exe.config
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchaseReport.resources
+C:\Users\Sunil\Documents\Visual Studio 2013\Projects\Windows Form\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLogin.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.exe.config
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.exe
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Point Of Sale.pdb
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.Shared.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\FlashControlV71.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\ShockwaveFlashObjects.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\stdole.dll
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csprojAssemblyReference.cache
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Form1.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrandEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategoryEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmployee.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrand.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formBrandNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategory.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCategoryNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.ProControls.formCity.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCityEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCityNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountry.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountryEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formCountryNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmlpoyeeNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formEmployeeEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedger.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedgerEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLedgerNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formLogin.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProduct.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImage.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImageEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductImageNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPrice.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPriceEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formProductPriceNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchase.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchaseNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formPucrchaseReport.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnitEdit.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.formUnitNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.ProControls.ucDateSearch.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.Template.formDisplay.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Presentation.Template.formNew.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point_Of_Sale.Properties.Resources.resources
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csproj.GenerateResource.cache
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csproj.CoreCompileInputs.cache
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.csproj.CopyComplete
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.exe
+F:\C# Project\Work Time Part 2\Windows Form\Database Project 6th Semi\Point Of Sale\Point Of Sale\Point Of Sale\obj\Debug\Point Of Sale.pdb

@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{449CD777-3E93-4AE8-BAFA-547F811DD461}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Point_Of_Sale</RootNamespace>
+    <AssemblyName>Point Of Sale</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Brand.cs" />
+    <Compile Include="DAL\Category.cs" />
+    <Compile Include="DAL\City.cs" />
+    <Compile Include="DAL\Country.cs" />
+    <Compile Include="DAL\Employee.cs" />
+    <Compile Include="DAL\FileImage.cs" />
+    <Compile Include="DAL\Ledger.cs" />
+    <Compile Include="DAL\POSBaseClass.cs" />
+    <Compile Include="DAL\Product.cs" />
+    <Compile Include="DAL\ProductImage.cs" />
+    <Compile Include="DAL\ProductPrice.cs" />
+    <Compile Include="DAL\Pucrchase.cs" />
+    <Compile Include="DAL\PucrchaseDetails.cs" />
+    <Compile Include="DAL\Transaction.cs" />
+    <Compile Include="DAL\Unit.cs" />
+    <Compile Include="Presentation\CrystalReportPurchase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportPurchase.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\DataSetPurchese.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPurchese.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formBrandEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formBrandEdit.Designer.cs">
+      <DependentUpon>formBrandEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCategoryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCategoryEdit.Designer.cs">
+      <DependentUpon>formCategoryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formEmployee.Designer.cs">
+      <DependentUpon>formEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formBrand.Designer.cs">
+      <DependentUpon>formBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formBrandNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formBrandNew.Designer.cs">
+      <DependentUpon>formBrandNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCategory.Designer.cs">
+      <DependentUpon>formCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCategoryNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCategoryNew.Designer.cs">
+      <DependentUpon>formCategoryNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCityEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCityEdit.Designer.cs">
+      <DependentUpon>formCityEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCityNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCityNew.Designer.cs">
+      <DependentUpon>formCityNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCountry.Designer.cs">
+      <DependentUpon>formCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCountryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCountryEdit.Designer.cs">
+      <DependentUpon>formCountryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCountryNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCountryNew.Designer.cs">
+      <DependentUpon>formCountryNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formEmlpoyeeNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formEmlpoyeeNew.Designer.cs">
+      <DependentUpon>formEmlpoyeeNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formEmployeeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formEmployeeEdit.Designer.cs">
+      <DependentUpon>formEmployeeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formLedger.Designer.cs">
+      <DependentUpon>formLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formLedgerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formLedgerEdit.Designer.cs">
+      <DependentUpon>formLedgerEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formLedgerNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formLedgerNew.Designer.cs">
+      <DependentUpon>formLedgerNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProduct.Designer.cs">
+      <DependentUpon>formProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductEdit.Designer.cs">
+      <DependentUpon>formProductEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductImage.Designer.cs">
+      <DependentUpon>formProductImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductImageEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductImageEdit.Designer.cs">
+      <DependentUpon>formProductImageEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductImageNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductImageNew.Designer.cs">
+      <DependentUpon>formProductImageNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formCity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formCity.Designer.cs">
+      <DependentUpon>formCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductNew.Designer.cs">
+      <DependentUpon>formProductNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductPrice.Designer.cs">
+      <DependentUpon>formProductPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductPriceEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductPriceEdit.Designer.cs">
+      <DependentUpon>formProductPriceEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formProductPriceNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formProductPriceNew.Designer.cs">
+      <DependentUpon>formProductPriceNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formPucrchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formPucrchase.Designer.cs">
+      <DependentUpon>formPucrchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formPucrchaseNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formPucrchaseNew.Designer.cs">
+      <DependentUpon>formPucrchaseNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formPucrchaseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formPucrchaseReport.Designer.cs">
+      <DependentUpon>formPucrchaseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formUnit.Designer.cs">
+      <DependentUpon>formUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formUnitEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formUnitEdit.Designer.cs">
+      <DependentUpon>formUnitEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\formUnitNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\formUnitNew.Designer.cs">
+      <DependentUpon>formUnitNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ProControls\proGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\ProControls\ucDateSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\ProControls\ucDateSearch.Designer.cs">
+      <DependentUpon>ucDateSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\PucrchaseReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PucrchaseReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\Template\formDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Template\formDisplay.Designer.cs">
+      <DependentUpon>formDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Template\formNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Template\formNew.Designer.cs">
+      <DependentUpon>formNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation\CrystalReportPurchase.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportPurchase.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formBrandEdit.resx">
+      <DependentUpon>formBrandEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCategoryEdit.resx">
+      <DependentUpon>formCategoryEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formEmployee.resx">
+      <DependentUpon>formEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formBrand.resx">
+      <DependentUpon>formBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formBrandNew.resx">
+      <DependentUpon>formBrandNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCategory.resx">
+      <DependentUpon>formCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCategoryNew.resx">
+      <DependentUpon>formCategoryNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCity.resx">
+      <DependentUpon>formCity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCityEdit.resx">
+      <DependentUpon>formCityEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCityNew.resx">
+      <DependentUpon>formCityNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCountry.resx">
+      <DependentUpon>formCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCountryEdit.resx">
+      <DependentUpon>formCountryEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formCountryNew.resx">
+      <DependentUpon>formCountryNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formEmlpoyeeNew.resx">
+      <DependentUpon>formEmlpoyeeNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formEmployeeEdit.resx">
+      <DependentUpon>formEmployeeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formLedger.resx">
+      <DependentUpon>formLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formLedgerEdit.resx">
+      <DependentUpon>formLedgerEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formLedgerNew.resx">
+      <DependentUpon>formLedgerNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProduct.resx">
+      <DependentUpon>formProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductEdit.resx">
+      <DependentUpon>formProductEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductImage.resx">
+      <DependentUpon>formProductImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductImageEdit.resx">
+      <DependentUpon>formProductImageEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductImageNew.resx">
+      <DependentUpon>formProductImageNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductNew.resx">
+      <DependentUpon>formProductNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductPrice.resx">
+      <DependentUpon>formProductPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductPriceEdit.resx">
+      <DependentUpon>formProductPriceEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formProductPriceNew.resx">
+      <DependentUpon>formProductPriceNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formPucrchase.resx">
+      <DependentUpon>formPucrchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formPucrchaseNew.resx">
+      <DependentUpon>formPucrchaseNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formPucrchaseReport.resx">
+      <DependentUpon>formPucrchaseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formUnit.resx">
+      <DependentUpon>formUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formUnitEdit.resx">
+      <DependentUpon>formUnitEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\formUnitNew.resx">
+      <DependentUpon>formUnitNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ProControls\ucDateSearch.resx">
+      <DependentUpon>ucDateSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\PucrchaseReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PucrchaseReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Template\formDisplay.resx">
+      <DependentUpon>formDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Template\formNew.resx">
+      <DependentUpon>formNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Presentation\DataSetPurchese.xsc">
+      <DependentUpon>DataSetPurchese.xsd</DependentUpon>
+    </None>
+    <None Include="Presentation\DataSetPurchese.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPurchese.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentation\DataSetPurchese.xss">
+      <DependentUpon>DataSetPurchese.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
